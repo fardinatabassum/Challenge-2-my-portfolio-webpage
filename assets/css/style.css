@@ -9,12 +9,17 @@
 
 /* Color of webpage background: Element selector */
 body {
-    background-color: beige;
+    background-color: lightgoldenrodyellow;
+}
+
+.header {
+    text-align: left;
 }
 h1 {
     font-size: 50px;
     text-align: left;
-    margin-left: 50px;
+    margin-left: 20px;
+    margin-right: 50px;
 }
 
 /* Color of the header */
@@ -22,33 +27,49 @@ h1 {
     padding: 20px;
     background-color: lightgrey;
     color: black;
+    display: flex;
+    flex-wrap: wrap;
 }
+.nav {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
 /* styling of nav bar */
 .header nav {
-  background-color:lemonchiffon;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  float: right;
+
+  background-color: lightblue;
+  color: teal;
 }
   /* adds no marker to the listed elements */
 .header nav ul {
     list-style-type: none;
-    font-size: 25px;
+    font-size: 1.5em;
 }
 
 /* lists nav contents horizontally */
 .header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+    float: right;
+    margin: 10px
+}
+
+.nav ul li a {
+    display: flex;
+    justify-content: flex-end;
 }
 .content img{
     height: auto;
     max-width: 25%;
+    margin: 20px;
     margin-right: 20px;
+    float: center; 
+    ;
 }
 .content {
 font-size: 30px;
+text-align: left;
+
 }
 .hero {
     display: flex;
@@ -60,29 +81,76 @@ font-size: 30px;
 /* styling for work section */
 .project {
     color: black;
-    background-color: burlywood;
     display: flex;
-    justify-content:space-evenly ;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+
+    
 }
+.project div {
+    border-style: solid;
+    border-color: teal;
+    width: 500px;
+    height: 300px;
+}
+
+
+
 .project1 {
-    flex: 3 ;
+    background-image: url(../images/placeholder-surfreport-img.jpg);
+    background-size: cover;
+    flex: 5 1 1 1 1
+
 }
-.img {
-    width: 100px;
-    height: 50px;
+
+.project h2  {
+    background-color: teal;
+    text-align: left;
+}
+
+.project p {
+    background-color: teal;
+    text-align: left;
 }
 .project2 {
-    flex:1
+    background-image: url(../images/placeholder-ledwall-img\ .jpeg);
+    background-position: center;
+    flex:1;
 }
 .project3 {
+    background-image: url(../images/placeholder-calculator-img.jpeg);
     flex: 1;
 }
 .project4 {
+    background-image: url(../images/placeholder-pastelpuzzle-img.webp);
     flex: 1;
 }
 .project5 {
+    background-image: url(../images/placeholder-runbuddy-img.webp);
     flex: 1;
+}
+
+@media screen and (max-width:992px) {
+    .project {
+        width: 50%;
+    }
+    .header {
+        background: brown;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .project {
+        width: 100%   
+    }
+    .header {
+        background: blue;
+    }
+}
+
+.contact a {
 }
   
 /* styling for footer */
