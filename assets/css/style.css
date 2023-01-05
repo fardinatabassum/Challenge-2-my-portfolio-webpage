@@ -1,74 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 /* Universal selector */
 * {
     box-sizing:border-box;
     padding: 0;
     margin: 0;
-    font-family: "Open Sans" ,sans-serif;
-
+    font-family: 'Montserrat', sans-serif;
+    background-color: lightgrey;
 }
 
-/* Color of webpage background: Element selector */
-body {
-    background-color: lightgoldenrodyellow;
+.li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500 ;
+    font-size: 30px;
+    color: teal;
+    text-decoration: none;
 }
 
 .header {
-    text-align: left;
+    display: flex ;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.main_header {
+    margin-right: auto;
+    margin-left: 0;
+    background-color: teal;
+    border: solid black;
+    box-shadow: 10px 5px black;
 }
 h1 {
     font-size: 50px;
-    text-align: left;
+    margin-right: 20px;
     margin-left: 20px;
-    margin-right: 50px;
 }
 
-/* Color of the header */
-.header {
-    padding: 20px;
-    background-color: lightgrey;
-    color: black;
-    display: flex;
-    flex-wrap: wrap;
-}
-.nav {
-    display: flex;
-    justify-content: flex-end;
-
+.main_header:hover {
+   color: lightgray;
 }
 
-/* styling of nav bar */
-.header nav {
 
-  background-color: lightblue;
-  color: teal;
-}
-  /* adds no marker to the listed elements */
-.header nav ul {
-    list-style-type: none;
-    font-size: 1.5em;
+.nav_content {
+    list-style: none;    
 }
 
-/* lists nav contents horizontally */
-.header nav ul li {
-    float: right;
-    margin: 10px
+.nav_content li {
+    display: inline-block;
+    padding: 0px 10px
 }
 
-.nav ul li a {
-    display: flex;
-    justify-content: flex-end;
+.nav_content li a:hover {
+    color:black ;
 }
-.content img{
+
+
+
+.resume_button {
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+    border: solid teal;
+    border-radius: 50px;
+    text-align: center;    
+}
+
+.resume_button:hover{
+    background-color: teal;
+    color: lightgrey;
+}
+
+
+.content div img{
     height: auto;
     max-width: 25%;
     margin: 20px;
     margin-right: 20px;
-    float: center; 
+    float: right; 
     ;
 }
 .content {
 font-size: 30px;
-text-align: left;
+text-align: bottom;
+
+}
+
+.content div p {
+    display: block ;
+    margin: 20px;
 
 }
 .hero {
@@ -150,7 +170,17 @@ text-align: left;
     }
 }
 
+.contact {
+    text-align: center;
+    padding: 20px;
+}
 .contact a {
+    text-decoration: underline;
+    margin-left: 25px;
+}
+
+.contact a:hover {
+    color: black;
 }
   
 /* styling for footer */
