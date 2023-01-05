@@ -16,14 +16,15 @@
     text-decoration: none;
 }
 
+/* styles the header */
 .header {
     display: flex ;
     justify-content: flex-end;
     align-items: center;
-    padding: 20px;
+    padding: 50px;
 
 }
-
+/* styles the main heading */
 .main_header {
     margin-right: auto;
     margin-left: 0;
@@ -74,40 +75,48 @@ h1 {
 
 .content div img{
     height: auto;
-    max-width: 25%;
-    margin: 20px;
-    margin-right: 20px;
-    float: right; 
-    ;
+    width: 100%;
+    border: solid black;
 }
 .content {
-font-size: 30px;
-text-align: bottom;
+padding: 20px 0px;
+display: flex;
+align-items: center;
 
 }
 
-.content div p {
-    display: block ;
-    margin: 20px;
-
-}
 .hero {
     display: flex;
-    justify-content:center ;
-    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+    align-items: center;  
+}
+
+.info { 
     width: 70%;
 }
+.content div p {
+    margin: 20px;
+    font-size: 35px;
+}
+
+.profile {
+    width: 30%;
+}
+
 
 /* styling for work section */
 .project {
     color: black;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-start;
-    
+    align-items: center;   
+}
 
-    
+.project h1 {
+    margin-right: 50px;
 }
 .project div {
     border-style: solid;
@@ -117,23 +126,21 @@ text-align: bottom;
 }
 
 
-
-.project1 {
-    background-image: url(../images/placeholder-surfreport-img.jpg);
-    background-size: cover;
-    flex: 5 1 1 1 1
-
-}
-
 .project h2  {
     background-color: teal;
-    text-align: left;
 }
 
 .project p {
     background-color: teal;
     text-align: left;
 }
+.project1 {
+    background-image: url(../images/placeholder-surfreport-img.jpg);
+    background-size: cover;
+    flex: 5 2 2 2 2
+
+}
+
 .project2 {
     background-image: url(../images/placeholder-ledwall-img\ .jpeg);
     background-position: center;
@@ -186,7 +193,6 @@ text-align: bottom;
 /* styling for footer */
 .footer {
     padding: 30px;
-    clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
