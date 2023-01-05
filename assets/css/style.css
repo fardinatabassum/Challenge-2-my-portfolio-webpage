@@ -1,0 +1,98 @@
+/* Universal selector */
+* {
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans" ,sans-serif;
+
+}
+
+/* Color of webpage background: Element selector */
+body {
+    background-color: beige;
+}
+h1 {
+    font-size: 50px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+/* Color of the header */
+.header {
+    padding: 20px;
+    background-color: lightgrey;
+    color: black;
+}
+/* styling of nav bar */
+.header nav {
+  background-color:lemonchiffon;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  float: right;
+}
+  /* adds no marker to the listed elements */
+.header nav ul {
+    list-style-type: none;
+    font-size: 25px;
+}
+
+/* lists nav contents horizontally */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.content img{
+    height: auto;
+    max-width: 25%;
+    margin-right: 20px;
+}
+.content {
+font-size: 30px;
+}
+.hero {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    width: 70%;
+}
+
+/* styling for work section */
+.project {
+    color: black;
+    background-color: burlywood;
+    display: flex;
+    justify-content:space-evenly ;
+    flex-wrap: wrap;
+}
+.project1 {
+    flex: 3 ;
+}
+.img {
+    width: 100px;
+    height: 50px;
+}
+.project2 {
+    flex:1
+}
+.project3 {
+    flex: 1;
+}
+.project4 {
+    flex: 1;
+}
+.project5 {
+    flex: 1;
+}
+  
+/* styling for footer */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
