@@ -1,6 +1,4 @@
-# my-portfolio-webpage
-This repository is for my personal portfolio webpage 
-# My Portfolio webpage
+# My Portfolio Webpage
 
 ## Description
 
@@ -8,11 +6,14 @@ This repository contains the code that was used to construst my portfolio webpag
 
 ## Installation
 
-Use the URL:
+Use the URL: https://fardinatabassum.github.io/my-portfolio-webpage/
 
 ## Usage
 
 The assets file contains the css used to style the webpage along with an images file that contains the placeholder images used for the projects and an avatar picture.
+
+![My-Portfolio-Webpage](./assets/images/portfolio-webpage-screenshot.png)
+
 Opening the index.HTML file directs the users to my portfolio webpage. The different components of the navigation bar provides information about the different sections and allows the user to jump to the section they desire to see and hovering of the components changes the color of the component. The images also have accessibility features that displays alternate text to the image that describes the content of that image.
 
 ## License

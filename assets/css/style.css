@@ -232,7 +232,7 @@ align-items: center;
         text-align: center;
     }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 639px) {
     .project {
         width: 100%   
     }
