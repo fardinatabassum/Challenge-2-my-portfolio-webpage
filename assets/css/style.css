@@ -7,7 +7,7 @@
     font-family: 'Montserrat', sans-serif;
     background-color: lightgrey;
 }
-
+/*styles the contents on nav bar*/
 .li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500 ;
@@ -15,14 +15,12 @@
     color: teal;
     text-decoration: none;
 }
-
 /* styles the header */
 .header {
     display: flex ;
     justify-content: flex-end;
     align-items: center;
     padding: 50px;
-
 }
 /* styles the main heading */
 .main_header {
@@ -32,32 +30,30 @@
     border: solid black;
     box-shadow: 10px 5px black;
 }
+/* styles the section headings*/
 h1 {
     font-size: 50px;
     margin-right: 20px;
     margin-left: 20px;
 }
-
+/* applies the hover pseudo-class to heading*/
 .main_header:hover {
    color: lightgray;
 }
-
-
+/* removes list marker*/
 .nav_content {
     list-style: none;    
 }
-
+/* displays nav bar horizontally*/
 .nav_content li {
     display: inline-block;
     padding: 0px 10px
 }
-
+/* apllies hover psudo-class to nav bar contents*/
 .nav_content li a:hover {
     color:black ;
 }
-
-
-
+/* styles the nav bar button*/
 .resume_button {
     width: 150px;
     height: 45px;
@@ -66,47 +62,46 @@ h1 {
     border-radius: 50px;
     text-align: center;    
 }
-
+/* applies hover pseudo-class to button*/
 .resume_button:hover{
     background-color: teal;
     color: lightgrey;
 }
-
-
+/* styles the image in content class in about me section*/
 .content div img{
     height: auto;
     width: 100%;
     border: solid black;
 }
+/* styles the content class in about me section*/
 .content {
 padding: 20px 0px;
 display: flex;
 align-items: center;
 
 }
-
+/* styles the hero class in about me section*/
 .hero {
     display: flex;
     justify-content: space-between;
     margin-right: 50px;
     align-items: center;  
 }
-
+/*styles the info class*/
 .info { 
     width: 70%;
 }
+/* styles the paragraphs in the content class in about me section*/
 .content div p {
     margin: 20px;
     font-size: 35px;
 }
-
+/* styles the profile class*/
 .profile {
     width: 30%;
 }
 
-
-/* styling for work section */
-
+/* styles all the divs in the project class in work section  */
 .project1 {
     background-image: url(../images/placeholder-surfreport-img.jpg);
     background-size: cover;
@@ -152,12 +147,11 @@ align-items: center;
     color: black;
     width: 80%;
 }
-
+/* allows the project class to be responsive*/
 .project {
     display: flex;
-
-
 }
+/* styles the project name class in work section*/
 .project_name {
     color: black;
     display: flex;
@@ -168,39 +162,40 @@ align-items: center;
     margin-right: 50px;  
     width: 100%;
 }
-
+/* adjusts the project heading*/
 .project h1 {
     margin-right: 50px;
 }
+/* adds color and boder to divs in project class*/
 .project div {
     border-style: solid;
-    border-color: teal;
-    
+    border-color: teal; 
 }
-
-
+/* adjusts subheadings in project section*/
 .project h2  {
     background-color: teal;
     text-align: left;
 }
-
+/* styles paragraphs in project section*/
 .project p {
     background-color: teal;
     text-align: left;
 }
-
+/* moves contact me section to the center*/
 .contact {
     text-align: center;
     padding: 20px;
 }
+/* underlines the links in the contact me section*/
 .contact a {
     text-decoration: underline;
     margin-left: 25px;
 }
-
+/* adds hover pseudoclass to links in contact me section*/
 .contact a:hover {
     color: black;
 }
+/* provides responsive designs for smaller screens*/
 @media screen and (max-width:1210px) {
     
     .project {
