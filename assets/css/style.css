@@ -111,40 +111,57 @@ align-items: center;
     background-image: url(../images/placeholder-surfreport-img.jpg);
     background-size: cover;
     font-size: 20px;
+    width: 125%;
+    height: 300px;
 
 }
 
 .project2 {
     background-image: url(../images/placeholder-ledwall-img\ .jpeg);
     background-position: center;
+    width: 50%;
+    height: 300px;
     
 }
 .project3 {
     background-image: url(../images/placeholder-calculator-img.jpeg);
     background-size: cover;
     background-position: center;
+    width: 50%;
+    height: 300px;
 }
 .project4 {
     background-image: url(../images/placeholder-pastelpuzzle-img.webp);
-    
+    width: 50%;
+    height: 300px;
 }
 .project5 {
     background-image: url(../images/placeholder-runbuddy-img.webp);
     background-size: cover;
     background-position: center;
+    width: 50%;
+    height: 300px;
 }
 
 .project_link {
     color: black;
+    width: 80%;
 }
 
 .project {
+    display: flex;
+
+
+}
+.project_name {
     color: black;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;   
+    align-items:center; 
+    margin-right: 50px;  
+    width: 100%;
 }
 
 .project h1 {
@@ -153,13 +170,13 @@ align-items: center;
 .project div {
     border-style: solid;
     border-color: teal;
-    width: 500px;
-    height: 300px;
+    
 }
 
 
 .project h2  {
     background-color: teal;
+    text-align: left;
 }
 
 .project p {
@@ -180,8 +197,9 @@ align-items: center;
     color: black;
 }
 @media screen and (max-width:992px) {
+    
     .project {
-        width: 50%;
+        width: 100%;
     }
     .header {
         background: brown;
