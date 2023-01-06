@@ -106,6 +106,38 @@ align-items: center;
 
 
 /* styling for work section */
+
+.project1 {
+    background-image: url(../images/placeholder-surfreport-img.jpg);
+    background-size: cover;
+    font-size: 20px;
+
+}
+
+.project2 {
+    background-image: url(../images/placeholder-ledwall-img\ .jpeg);
+    background-position: center;
+    
+}
+.project3 {
+    background-image: url(../images/placeholder-calculator-img.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.project4 {
+    background-image: url(../images/placeholder-pastelpuzzle-img.webp);
+    
+}
+.project5 {
+    background-image: url(../images/placeholder-runbuddy-img.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.project_link {
+    color: black;
+}
+
 .project {
     color: black;
     display: flex;
@@ -134,48 +166,6 @@ align-items: center;
     background-color: teal;
     text-align: left;
 }
-.project1 {
-    background-image: url(../images/placeholder-surfreport-img.jpg);
-    background-size: cover;
-    flex: 5 2 2 2 2
-
-}
-
-.project2 {
-    background-image: url(../images/placeholder-ledwall-img\ .jpeg);
-    background-position: center;
-    flex:1;
-}
-.project3 {
-    background-image: url(../images/placeholder-calculator-img.jpeg);
-    flex: 1;
-}
-.project4 {
-    background-image: url(../images/placeholder-pastelpuzzle-img.webp);
-    flex: 1;
-}
-.project5 {
-    background-image: url(../images/placeholder-runbuddy-img.webp);
-    flex: 1;
-}
-
-@media screen and (max-width:992px) {
-    .project {
-        width: 50%;
-    }
-    .header {
-        background: brown;
-    }
-    
-}
-@media screen and (max-width: 768px) {
-    .project {
-        width: 100%   
-    }
-    .header {
-        background: blue;
-    }
-}
 
 .contact {
     text-align: center;
@@ -189,6 +179,33 @@ align-items: center;
 .contact a:hover {
     color: black;
 }
+@media screen and (max-width:992px) {
+    .project {
+        width: 50%;
+    }
+    .header {
+        background: brown;
+    }
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .project {
+        width: 100%   
+    }
+    .header {
+        background: blue;
+    }
+}
+
+
   
 /* styling for footer */
 .footer {
