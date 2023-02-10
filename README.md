@@ -6,7 +6,7 @@ This repository contains the code that was used to construst my portfolio webpag
 
 ## Installation
 
-Use the URL: https://fardinatabassum.github.io/my-portfolio-webpage/
+Use the URL: https://fardinatabassum.github.io/Challenge-2-my-portfolio-webpage/
 
 ## Usage
 
