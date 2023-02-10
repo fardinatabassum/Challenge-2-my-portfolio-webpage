@@ -103,11 +103,12 @@ align-items: center;
 
 /* styles all the divs in the project class in work section  */
 .project1 {
-    background-image: url(../images/placeholder-surfreport-img.jpg);
+    background-image: url(../images/The\ weather\ dj\ gif.gif);
+    background-position: center center;
     background-size: cover;
     font-size: 20px;
     width: 125%;
-    height: 300px;
+    height: 600px;
     margin: 10px 0px;
 
 }
