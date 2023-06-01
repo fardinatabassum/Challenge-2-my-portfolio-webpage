@@ -3,26 +3,33 @@
 
 <head>
     <meta charset="UTF-8">
+    <!-- Link to stylesheet using rel and href attributes -->
     <link href="./assets/css/style.css" rel="stylesheet" <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title of the webpage -->
     <title>My portfolio</title>
 </head>
 
 
 <body>
+    <!-- Site Header -->
     <header class="header">
+        <!-- Heading -->
         <h1 class="main_header"> Fardina Tabassum</h1>
+        <!-- nav bar -->
         <nav>
             <ul class="nav_content">
+                <!-- Unordered list -->
                 <li><a href="#about-me">About Me</a></li>
                 <li> <a href="#work"> Work</a></li>
                 <li><a href="#contact-me">Contact Me</a></li>
             </ul>
         </nav>
+        <!-- anchor tag -->
         <a href="https://www.linkedin.com/in/fardina-tabassum-140b10239/" target="_blank"><button
                 class="resume_button">Resume</button></a>
     </header>
-
+    <!-- about me section with id -->
     <section id="about-me" class="content">
         <h1> About Me</h1>
         <div class="hero">
@@ -35,12 +42,14 @@
                 <p>Fun fact: I can speak 4 different languages and can play 2 instruments</p>
             </div>
             <div class="profile">
+                <!--Image using src to point to relative path and descriptive alt attributes-->
                 <img src="./assets/images/fardina-tabassum-profile-photo.JPG" alt="self image">
             </div>
 
         </div>
     </section>
 
+    <!-- project section with id of work -->
     <section class=project id="work">
         <h1>Work</h1>
         <section class="project_name">
@@ -57,9 +66,9 @@
                     <p class="project2-paragraph">Node/MySql/Handlebars/Sequalize/Express</p>
                 </div>
             </a>
-                
-          
-            
+
+
+
             <div class="project3">
                 <h2>Calculator</h2>
                 <p>React/JavaScript/CSS</p>
@@ -78,6 +87,7 @@
     </section>
 
     <section>
+        <!--id attributes to provide unique identifier for element-->
         <div class=contact id="contact-me">
             <h1>Contact Me</h1>
             <a href="https://fardinatabassum.github.io/my-portfolio-webpage/" target="_blank"
@@ -89,7 +99,7 @@
         </div>
     </section>
 
-
+    <!-- footer -->
     <footer class="footer">
         <h2>Made by Fardina Tabassum</h2>
         <h3>Made in 1997</h3>
