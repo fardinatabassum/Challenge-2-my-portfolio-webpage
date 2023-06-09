@@ -160,6 +160,7 @@ align-items: center;
     height: 300px;
     margin-bottom: 10px;
 }
+
 .project4 {
     background-image: url(../images/placeholder-pastelpuzzle-img.webp);
     width: 49%;
@@ -226,6 +227,7 @@ align-items: center;
 .contact a:hover {
     color: black;
 }
+
 /* provides responsive designs for smaller screens*/
 @media screen and (max-width:1210px) {
     
@@ -267,6 +269,7 @@ align-items: center;
         flex-direction: column;
         text-align: center;
     }
+
 }
 
 
